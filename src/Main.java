@@ -21,4 +21,5 @@ public class Main {
         MyPair<Integer,Integer> myPair= new MyPair<>(120,190);
         MyPair<MyPair<Integer,Integer>,String>appointment= new MyPair<>(myPair,"Name2");
         System.out.println(appointment.swap());
+        System.out.println("IM NOT NICE");
 }}
